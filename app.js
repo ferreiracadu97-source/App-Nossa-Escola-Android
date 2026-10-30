@@ -434,7 +434,8 @@ async function init() {
   if (session) await show(session);
 }
 
-document.addEventListener("DOMContentLoaded", init);document.addEventListener("DOMContentLoaded", init);
+
+document.addEventListener("DOMContentLoaded", init);
 
 if ("serviceWorker" in navigator) {
   window.addEventListener("load", () => {
@@ -444,5 +445,4 @@ if ("serviceWorker" in navigator) {
   });
 }
 
-})();
 })();
